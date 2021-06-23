@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    /* background-color: rgb(130, 80, 88); */
+    background-image: linear-gradient(to bottom, #e52e71, #ff8a00);
+    color: gray;
+}
+
+.logo {
+    width: 100px;
+    margin: auto;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo h1 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.logo p {
+    color: white;
+    width: 150px;
+    font-size: 18px;
+}
+
+.menu {
+    text-align: left;
+    padding-left: 45px;
+    margin-top: 50px;
+}
+
+.menu ul li {
+    list-style: none;
+    padding-top: 23px;
+    font-size: 18px;
+    border-bottom: 2px solid #e46262;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.time {
+    display: flex;
+    margin: 50px;
+    color: white;
+}
+
+.time i {
+    font-size: 45px;
+}
+
+.open_time {
+    margin-left: 10px;
+}
+
+.contact {
+    display: flex;
+    margin: 58px;
+    color: white;
+}
+
+.contact i {
+    font-size: 45px;
+}
+
+.social {
+    display: flex;
+    margin-top: -20px;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgb(248, 242, 242);
+    color: white;
+    margin-left: 20px;
+}
+
+.media:hover {
+    background-color: rgb(198, 52, 166);
+}
+
+.media i {
+    font-size: 18px;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url(../img/02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slogan {
+    width: 385px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 383px;
+    text-align: left;
+    padding: 31px;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(240, 52, 240);
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.title {
+    margin: 50px 0 17px 172px;
+}
+
+.title h1 {
+    color: rgb(240, 52, 240);
+}
+
+.main {
+    width: 70%;
+    margin: auto;
+    margin-left: 400px;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.service {
+    width: 90%;
+}
+
+.service img {
+    width: 100%;
+}
+
+.news_data {
+    width: 100%;
+    margin-left: 170px;
+    display: flex;
+}
+
+.quality {
+    width: 350px;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    background-color: white;
+}
+
+.info {
+    padding: 20px;
+}
+
+.date {
+    position: relative;
+    right: -201px;
+}
+
+.quality img {
+    width: 100%;
+}
+
+.news {
+    background-color: rgb(255, 245, 247);
+}
+
+.blog_btn {
+    color: white;
+    background-color: rgb(240, 52, 240);
+    width: 170px;
+    height: 55px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.blog {
+    width: 100%;
+    text-align: center;
+    margin-left: 170px;
+}
+
+.about_betty {
+    background-image: url(../img/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 200px;
+    background-position: -166px -385px;
+}
+
+.client {
+    width: 300px;
+    float: left;
+    padding: 40px;
+}
+
+.sign {
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 20px 0 0 15px;
+}
+
+.sign:hover {
+    background-color: rgb(240, 52, 240);
+}
+
+.sign i {
+    font-size: 20px;
+    color: white;
+}
+
+.lawyer {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
